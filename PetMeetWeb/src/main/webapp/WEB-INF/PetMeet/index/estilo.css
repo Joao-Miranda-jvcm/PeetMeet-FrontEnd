@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffc62d, #ffffff);
+}
+
+.header{width: 100%;
+    background-image: linear-gradient(to right, #ffc62d, #ffffff);
+    height: 80px;
+    border-radius: 16px;
+    border: 1px solid black !important;
+
+}
+
+/*deixa a letra em negrito quando o cursor passa por cima*/
+.nav-link:hover{color: black;  font-weight: bold !important;}
+@media(max-width:668px){
+    .nav-link{text-align: center;}
+}
+.rounded-pill{
+    position: absolute;
+     top: 0;
+    left: 0;
+  right: 0 !important;
+}
+
+.login-button{
+    background-color: black;
+    color: #ffc62d;
+    font-weight: bold
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color !important;
+}
+
