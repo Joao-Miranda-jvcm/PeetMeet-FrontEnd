@@ -29,7 +29,7 @@ body {
 .login-button{
     background-color: black;
     color: #ffc62d;
-    font-weight: bold
+    font-weight: bold;
     font-size: 14px;
     padding: 8px 20px;
     border-radius: 50px;
@@ -37,3 +37,42 @@ body {
     transition: 0.3s background-color !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'inter', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.212);
+    background-color: #fff;
+    border-radius:50px;
+    border: solid black;
+    
+}
+
+.title{
+    text-align: center;
+    background-image: linear-gradient(to right, #ffc62d, #ffffff);
+    border-radius: 50px;
+}
