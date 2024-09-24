@@ -1,7 +1,7 @@
 $(document).ready(function() {
     function carregarUsuarios() {
         $.ajax({
-            url: 'http://localhost:3000/usuario/todos',
+            url: 'http://localhost:8080/usuario/todos',
             method: 'GET',
             dataType: 'json',
             success: function(data) {
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
     function deletarUsuario(id) {
         $.ajax({
-            url: 'http://localhost:3000/usuario/' + id,
+            url: 'http://localhost:8080/usuario/' + id,
             method: 'DELETE',
             success: function() {
                 alert('Usuário deletado com sucesso');
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     function criarUsuario(usuario) {
         $.ajax({
-            url: 'http://localhost:3000/usuario',
+            url: 'http://localhost:8080/usuario',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(usuario),
